@@ -105,22 +105,22 @@ if(a == enter):
             print("ᴛɪᴍᴇ ᴛᴏ ᴅᴏ")
             notification.notify(title = "ꜱᴄʜᴇᴅᴜʟᴇ ɴᴏᴛɪꜰɪᴇʀ", message = task1, timeout = 25 ) 
             playsound("alarm1.wav")
-            time.sleep(25)
+            time.sleep(30)
         elif(alarmH2 == datetime.datetime.now().hour and alarmM2 == datetime.datetime.now().minute):
             print("ᴛɪᴍᴇ ᴛᴏ ᴅᴏ")
             notification.notify(title = "ꜱᴄʜᴇᴅᴜʟᴇ ɴᴏᴛɪꜰɪᴇʀ", message = task2, timeout = 25 ) 
             playsound("alarm2.wav")
-            time.sleep(25)
+            time.sleep(30)
         elif(alarmH3 == datetime.datetime.now().hour and alarmM3 == datetime.datetime.now().minute):
             print("ᴛɪᴍᴇ ᴛᴏ ᴅᴏ")
             notification.notify(title = "ꜱᴄʜᴇᴅᴜʟᴇ ɴᴏᴛɪꜰɪᴇʀ", message = task3, timeout = 25 ) 
             playsound("alarm3.wav")
-            time.sleep(25)
+            time.sleep(30)
         elif(alarmH4 == datetime.datetime.now().hour and alarmM4 == datetime.datetime.now().minute):
             print("ᴛɪᴍᴇ ᴛᴏ ᴅᴏ")
             notification.notify(title = "ꜱᴄʜᴇᴅᴜʟᴇ ɴᴏᴛɪꜰɪᴇʀ", message = task4, timeout = 25 ) 
             playsound("alarm4.wav")
-            time.sleep(25)
+            time.sleep(30)
         else:
             pass  
 else:
